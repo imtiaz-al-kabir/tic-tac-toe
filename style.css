@@ -81,4 +81,9 @@ h1 {
   body {
     margin-top: 200px;
   }
+  .msg-container {
+    height: 100%;
+    padding: 150px;
+    margin-bottom: 400px;
+  }
 }
