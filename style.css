@@ -31,9 +31,10 @@ h1 {
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
   font-size: 8vmin;
   color: #b0413e;
+  background-color: #ffffc7;
 }
 
-.reset-btn {
+#reset-btn {
   padding: 1rem;
   font-size: 1.2rem;
   background-color: #191913;
