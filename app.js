@@ -60,8 +60,9 @@ const checkWinner = () => {
 
     if (pos1 !== "" && pos2 !== "" && pos3 !== "") {
       if (pos1 === pos2 && pos2 === pos3) {
-        console.log("Winner", pos1);
         showWinner(pos1);
+      } else {
+        console.log("Tie");
       }
     }
   }

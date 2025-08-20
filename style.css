@@ -67,3 +67,18 @@ h1 {
 .hide {
   display: none;
 }
+
+@media screen and (max-width: 600px) {
+  .container {
+    height: fit-content;
+  }
+  .game {
+    margin-bottom: 30px;
+  }
+  h1 {
+    margin-bottom: 30px;
+  }
+  body {
+    margin-top: 200px;
+  }
+}
